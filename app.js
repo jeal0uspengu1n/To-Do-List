@@ -7,7 +7,7 @@ app.set("view engine","ejs");
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
-var newItems=["Dev","contests"];
+var newItems=["itna saara mails hai, padh le bhai"];
 app.get("/",function(req,res){
   // res.send("this too bitchhhh");
   var day=date();
